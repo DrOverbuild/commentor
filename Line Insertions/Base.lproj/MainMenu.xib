@@ -11,13 +11,13 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Prefixer" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Commentor" customModuleProvider="target">
             <connections>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
-        <window title="Prefixer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="Commentor" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -163,7 +163,7 @@
             </view>
             <point key="canvasLocation" x="460" y="383"/>
         </window>
-        <viewController id="lRZ-YP-7h0" customClass="MainViewController" customModule="Prefixer" customModuleProvider="target">
+        <viewController id="lRZ-YP-7h0" customClass="MainViewController" customModule="Commentor" customModuleProvider="target">
             <connections>
                 <outlet property="insertionText" destination="1mM-zJ-6du" id="yVB-rw-dAu"/>
                 <outlet property="mainText" destination="M40-oC-BaP" id="7dx-AR-sOC"/>
@@ -174,11 +174,11 @@
         </viewController>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="Prefixer" id="1Xt-HY-uBw">
+                <menuItem title="Commentor" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Prefixer" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="Commentor" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About Prefixer" id="5kV-Vb-QxS">
+                            <menuItem title="About Commentor" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
@@ -190,7 +190,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                            <menuItem title="Hide Prefixer" keyEquivalent="h" id="Olw-nP-bQN">
+                            <menuItem title="Hide Commentor" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
                                 </connections>
@@ -208,7 +208,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit Prefixer" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit Commentor" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -737,7 +737,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                         <items>
-                            <menuItem title="Prefixer Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                            <menuItem title="Commentor Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                 <connections>
                                     <action selector="showHelp:" target="-1" id="y7X-2Q-9no"/>
                                 </connections>

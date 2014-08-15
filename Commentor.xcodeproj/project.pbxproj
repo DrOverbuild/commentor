@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A41A4C09199DAA4700080E3C /* Comments.icns in Resources */ = {isa = PBXBuildFile; fileRef = A41A4C08199DAA4700080E3C /* Comments.icns */; };
 		A46B853C199D2EAB0014F127 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B853B199D2EAB0014F127 /* main.swift */; };
 		A46B853E199D2EAB0014F127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B853D199D2EAB0014F127 /* AppDelegate.swift */; };
-		A46B8540199D2EAB0014F127 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B853F199D2EAB0014F127 /* Images.xcassets */; };
 		A46B8543199D2EAB0014F127 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46B8541199D2EAB0014F127 /* MainMenu.xib */; };
 		A46B8559199D30F60014F127 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B8558199D30F60014F127 /* MainViewController.swift */; };
-		A46B855B199D63590014F127 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B855A199D63590014F127 /* StringUtil.swift */; };
+		A4CD153C199DAB8900F162ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CD153B199DAB8900F162ED /* Images.xcassets */; };
+		A4CD153E199DB05000F162ED /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD153D199DB05000F162ED /* StringUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A46B8536199D2EAB0014F127 /* Prefixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prefixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41A4C08199DAA4700080E3C /* Comments.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Comments.icns; sourceTree = "<group>"; };
+		A46B8536199D2EAB0014F127 /* Commentor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Commentor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46B853A199D2EAB0014F127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46B853B199D2EAB0014F127 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A46B853D199D2EAB0014F127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A46B853F199D2EAB0014F127 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A46B8542199D2EAB0014F127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A46B8558199D30F60014F127 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		A46B855A199D63590014F127 /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = ../StringUtil.swift; sourceTree = "<group>"; };
+		A4CD153B199DAB8900F162ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4CD153D199DB05000F162ED /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		A46B8537199D2EAB0014F127 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A46B8536199D2EAB0014F127 /* Prefixer.app */,
+				A46B8536199D2EAB0014F127 /* Commentor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,11 +58,11 @@
 		A46B8538199D2EAB0014F127 /* Line Insertions */ = {
 			isa = PBXGroup;
 			children = (
+				A4CD153D199DB05000F162ED /* StringUtil.swift */,
+				A4CD153B199DAB8900F162ED /* Images.xcassets */,
 				A46B853D199D2EAB0014F127 /* AppDelegate.swift */,
-				A46B853F199D2EAB0014F127 /* Images.xcassets */,
 				A46B8541199D2EAB0014F127 /* MainMenu.xib */,
 				A46B8558199D30F60014F127 /* MainViewController.swift */,
-				A46B855A199D63590014F127 /* StringUtil.swift */,
 				A46B8539199D2EAB0014F127 /* Supporting Files */,
 			);
 			path = "Line Insertions";
@@ -69,6 +71,7 @@
 		A46B8539199D2EAB0014F127 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A41A4C08199DAA4700080E3C /* Comments.icns */,
 				A46B853A199D2EAB0014F127 /* Info.plist */,
 				A46B853B199D2EAB0014F127 /* main.swift */,
 			);
@@ -78,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A46B8535199D2EAB0014F127 /* Prefixer */ = {
+		A46B8535199D2EAB0014F127 /* Commentor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A46B8552199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Prefixer" */;
+			buildConfigurationList = A46B8552199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Commentor" */;
 			buildPhases = (
 				A46B8532199D2EAB0014F127 /* Sources */,
 				A46B8533199D2EAB0014F127 /* Frameworks */,
@@ -90,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = Prefixer;
+			name = Commentor;
 			productName = "Line Insertions";
-			productReference = A46B8536199D2EAB0014F127 /* Prefixer.app */;
+			productReference = A46B8536199D2EAB0014F127 /* Commentor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A46B8531199D2EAB0014F127 /* Build configuration list for PBXProject "Prefixer" */;
+			buildConfigurationList = A46B8531199D2EAB0014F127 /* Build configuration list for PBXProject "Commentor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -122,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A46B8535199D2EAB0014F127 /* Prefixer */,
+				A46B8535199D2EAB0014F127 /* Commentor */,
 			);
 		};
 /* End PBXProject section */
@@ -132,7 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A46B8540199D2EAB0014F127 /* Images.xcassets in Resources */,
+				A4CD153C199DAB8900F162ED /* Images.xcassets in Resources */,
+				A41A4C09199DAA4700080E3C /* Comments.icns in Resources */,
 				A46B8543199D2EAB0014F127 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A46B855B199D63590014F127 /* StringUtil.swift in Sources */,
+				A4CD153E199DB05000F162ED /* StringUtil.swift in Sources */,
 				A46B8559199D30F60014F127 /* MainViewController.swift in Sources */,
 				A46B853E199D2EAB0014F127 /* AppDelegate.swift in Sources */,
 				A46B853C199D2EAB0014F127 /* main.swift in Sources */,
@@ -250,7 +254,7 @@
 				INFOPLIST_FILE = "Line Insertions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = Prefixer;
+				PRODUCT_NAME = Commentor;
 			};
 			name = Debug;
 		};
@@ -262,14 +266,14 @@
 				INFOPLIST_FILE = "Line Insertions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = Prefixer;
+				PRODUCT_NAME = Commentor;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A46B8531199D2EAB0014F127 /* Build configuration list for PBXProject "Prefixer" */ = {
+		A46B8531199D2EAB0014F127 /* Build configuration list for PBXProject "Commentor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A46B8550199D2EAB0014F127 /* Debug */,
@@ -278,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A46B8552199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Prefixer" */ = {
+		A46B8552199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Commentor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A46B8553199D2EAB0014F127 /* Debug */,
