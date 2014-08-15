@@ -19,16 +19,17 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <window title="Prefixer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="364" y="211" width="598" height="646"/>
+            <rect key="contentRect" x="364" y="211" width="600" height="530"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="1024"/>
-            <value key="minSize" type="size" width="598" height="610"/>
+            <value key="minSize" type="size" width="598" height="200"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="598" height="646"/>
+                <rect key="frame" x="0.0" y="0.0" width="600" height="530"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1mM-zJ-6du">
-                        <rect key="frame" x="70" y="48" width="180" height="22"/>
+                        <rect key="frame" x="70" y="48" width="182" height="22"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="4ub-LR-PyH">
                             <font key="font" size="12" name="Menlo-Regular"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -36,7 +37,7 @@
                         </textFieldCell>
                     </textField>
                     <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4i-aG-iuY">
-                        <rect key="frame" x="20" y="78" width="558" height="548"/>
+                        <rect key="frame" x="20" y="78" width="560" height="432"/>
                         <clipView key="contentView" id="Sko-OH-V9e">
                             <rect key="frame" x="1" y="1" width="223" height="133"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,10 +46,10 @@
                                     <rect key="frame" x="0.0" y="0.0" width="223" height="546"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <size key="minSize" width="541" height="546"/>
+                                    <size key="minSize" width="543" height="430"/>
                                     <size key="maxSize" width="602" height="10000000"/>
                                     <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <size key="minSize" width="541" height="546"/>
+                                    <size key="minSize" width="543" height="430"/>
                                     <size key="maxSize" width="602" height="10000000"/>
                                 </textView>
                             </subviews>
@@ -76,7 +77,7 @@
                         </textFieldCell>
                     </textField>
                     <button translatesAutoresizingMaskIntoConstraints="NO" id="4Uu-il-fP2">
-                        <rect key="frame" x="256" y="49" width="151" height="18"/>
+                        <rect key="frame" x="258" y="49" width="151" height="18"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="14" id="EQf-fl-EX0"/>
                             <constraint firstAttribute="width" constant="147" id="h6l-1t-N18"/>
@@ -87,7 +88,7 @@
                         </buttonCell>
                     </button>
                     <button translatesAutoresizingMaskIntoConstraints="NO" id="4GQ-NQ-rqZ">
-                        <rect key="frame" x="411" y="49" width="169" height="18"/>
+                        <rect key="frame" x="413" y="49" width="169" height="18"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="165" id="5TI-5D-ubh"/>
                             <constraint firstAttribute="height" constant="14" id="gnr-zQ-HLK"/>
@@ -98,7 +99,7 @@
                         </buttonCell>
                     </button>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9lX-Hm-6nw">
-                        <rect key="frame" x="494" y="10" width="90" height="32"/>
+                        <rect key="frame" x="496" y="10" width="90" height="32"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="78" id="HoF-cc-wZc"/>
                             <constraint firstAttribute="height" constant="21" id="d3t-yd-Tbg"/>
@@ -114,7 +115,7 @@
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NQI-rG-94G">
-                        <rect key="frame" x="418" y="10" width="76" height="32"/>
+                        <rect key="frame" x="420" y="10" width="76" height="32"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="64" id="EtC-7H-kQe"/>
                             <constraint firstAttribute="height" constant="21" id="fVn-pI-HPt"/>
@@ -160,7 +161,7 @@
                     <constraint firstAttribute="trailing" secondItem="9lX-Hm-6nw" secondAttribute="trailing" constant="20" id="t5D-Kn-x0U"/>
                 </constraints>
             </view>
-            <point key="canvasLocation" x="459" y="441"/>
+            <point key="canvasLocation" x="460" y="383"/>
         </window>
         <viewController id="lRZ-YP-7h0" customClass="MainViewController" customModule="Prefixer" customModuleProvider="target">
             <connections>
