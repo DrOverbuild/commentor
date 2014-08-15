@@ -6,7 +6,7 @@ A Mac app that adds or removes text to the beginning and/or end of each line in 
 Algorithms
 =========
 
-Both algorithms used have three modules. The first one handles splitting the main text into separate lines and some other preparations. The second module handles the main operation of the string. The final module handles displaying the string back to the user. The third module for both methods consist of the exact same code.
+Both algorithms used have three modules. The first one handles splitting the main text into separate lines and some other preparations. The second module handles the main operation of the string. The final module handles displaying the string back to the user. The third module for both methods consist of the exact same code. The code of module #3 of one method was literally copied and pasted to the end of the other method.
 
 Algorithm used to add text to beginning and/or end of each line (In case you don't want to or can't read Swift):
 
