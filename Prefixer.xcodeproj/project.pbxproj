@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A46B8536199D2EAB0014F127 /* Line Insertions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Line Insertions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46B8536199D2EAB0014F127 /* Prefixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prefixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46B853A199D2EAB0014F127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46B853B199D2EAB0014F127 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A46B853D199D2EAB0014F127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A46B853F199D2EAB0014F127 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A46B8542199D2EAB0014F127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		A46B8548199D2EAB0014F127 /* Line InsertionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Line InsertionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46B8548199D2EAB0014F127 /* PrefixerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrefixerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46B854D199D2EAB0014F127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46B854E199D2EAB0014F127 /* Line_InsertionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line_InsertionsTests.swift; sourceTree = "<group>"; };
 		A46B8558199D30F60014F127 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		A46B8537199D2EAB0014F127 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A46B8536199D2EAB0014F127 /* Line Insertions.app */,
-				A46B8548199D2EAB0014F127 /* Line InsertionsTests.xctest */,
+				A46B8536199D2EAB0014F127 /* Prefixer.app */,
+				A46B8548199D2EAB0014F127 /* PrefixerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A46B8535199D2EAB0014F127 /* Line Insertions */ = {
+		A46B8535199D2EAB0014F127 /* Prefixer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A46B8552199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Line Insertions" */;
+			buildConfigurationList = A46B8552199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Prefixer" */;
 			buildPhases = (
 				A46B8532199D2EAB0014F127 /* Sources */,
 				A46B8533199D2EAB0014F127 /* Frameworks */,
@@ -130,14 +130,14 @@
 			);
 			dependencies = (
 			);
-			name = "Line Insertions";
+			name = Prefixer;
 			productName = "Line Insertions";
-			productReference = A46B8536199D2EAB0014F127 /* Line Insertions.app */;
+			productReference = A46B8536199D2EAB0014F127 /* Prefixer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A46B8547199D2EAB0014F127 /* Line InsertionsTests */ = {
+		A46B8547199D2EAB0014F127 /* PrefixerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A46B8555199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Line InsertionsTests" */;
+			buildConfigurationList = A46B8555199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "PrefixerTests" */;
 			buildPhases = (
 				A46B8544199D2EAB0014F127 /* Sources */,
 				A46B8545199D2EAB0014F127 /* Frameworks */,
@@ -148,9 +148,9 @@
 			dependencies = (
 				A46B854A199D2EAB0014F127 /* PBXTargetDependency */,
 			);
-			name = "Line InsertionsTests";
+			name = PrefixerTests;
 			productName = "Line InsertionsTests";
-			productReference = A46B8548199D2EAB0014F127 /* Line InsertionsTests.xctest */;
+			productReference = A46B8548199D2EAB0014F127 /* PrefixerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A46B8531199D2EAB0014F127 /* Build configuration list for PBXProject "Line Insertions" */;
+			buildConfigurationList = A46B8531199D2EAB0014F127 /* Build configuration list for PBXProject "Prefixer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +184,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A46B8535199D2EAB0014F127 /* Line Insertions */,
-				A46B8547199D2EAB0014F127 /* Line InsertionsTests */,
+				A46B8535199D2EAB0014F127 /* Prefixer */,
+				A46B8547199D2EAB0014F127 /* PrefixerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +234,7 @@
 /* Begin PBXTargetDependency section */
 		A46B854A199D2EAB0014F127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A46B8535199D2EAB0014F127 /* Line Insertions */;
+			target = A46B8535199D2EAB0014F127 /* Prefixer */;
 			targetProxy = A46B8549199D2EAB0014F127 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -336,7 +336,7 @@
 				INFOPLIST_FILE = "Line Insertions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Prefixer;
 			};
 			name = Debug;
 		};
@@ -348,7 +348,7 @@
 				INFOPLIST_FILE = "Line Insertions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Prefixer;
 			};
 			name = Release;
 		};
@@ -367,7 +367,7 @@
 				);
 				INFOPLIST_FILE = "Line InsertionsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PrefixerTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Line Insertions.app/Contents/MacOS/Line Insertions";
 			};
 			name = Debug;
@@ -383,7 +383,7 @@
 				);
 				INFOPLIST_FILE = "Line InsertionsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PrefixerTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Line Insertions.app/Contents/MacOS/Line Insertions";
 			};
 			name = Release;
@@ -391,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A46B8531199D2EAB0014F127 /* Build configuration list for PBXProject "Line Insertions" */ = {
+		A46B8531199D2EAB0014F127 /* Build configuration list for PBXProject "Prefixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A46B8550199D2EAB0014F127 /* Debug */,
@@ -400,7 +400,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A46B8552199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Line Insertions" */ = {
+		A46B8552199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Prefixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A46B8553199D2EAB0014F127 /* Debug */,
@@ -409,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A46B8555199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Line InsertionsTests" */ = {
+		A46B8555199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "PrefixerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A46B8556199D2EAB0014F127 /* Debug */,
