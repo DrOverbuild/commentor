@@ -9,7 +9,7 @@
 import Cocoa
 
 class MainViewController: NSViewController {
-
+	
 	@IBOutlet var insertionText: NSTextField!
 	@IBOutlet var mainText: NSTextView!
 	@IBOutlet var putInFrontOfLine: NSButton!
@@ -77,7 +77,7 @@ class MainViewController: NSViewController {
 			if countElements(removeWhat)*(hasPrefix && hasSuffix ? 2:1) >= countElements(lines[i]){
 				lines[i] = ""
 			}else{
-			
+				
 				if hasPrefix{
 					lines[i] = StringUtil.substringOf(lines[i], startIndex: length, endIndex: countElements(lines[i])-1)!
 				}
@@ -101,8 +101,8 @@ class MainViewController: NSViewController {
 		mainText.string = text
 	}
 	
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do view setup here.
-    }
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		// Do view setup here.
+	}
 }
