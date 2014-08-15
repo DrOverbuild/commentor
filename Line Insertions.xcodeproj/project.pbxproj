@@ -12,6 +12,8 @@
 		A46B8540199D2EAB0014F127 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B853F199D2EAB0014F127 /* Images.xcassets */; };
 		A46B8543199D2EAB0014F127 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46B8541199D2EAB0014F127 /* MainMenu.xib */; };
 		A46B854F199D2EAB0014F127 /* Line_InsertionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B854E199D2EAB0014F127 /* Line_InsertionsTests.swift */; };
+		A46B8559199D30F60014F127 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B8558199D30F60014F127 /* MainViewController.swift */; };
+		A46B855B199D63590014F127 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B855A199D63590014F127 /* StringUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		A46B8548199D2EAB0014F127 /* Line InsertionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Line InsertionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46B854D199D2EAB0014F127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46B854E199D2EAB0014F127 /* Line_InsertionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line_InsertionsTests.swift; sourceTree = "<group>"; };
+		A46B8558199D30F60014F127 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A46B855A199D63590014F127 /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = ../StringUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				A46B853D199D2EAB0014F127 /* AppDelegate.swift */,
 				A46B853F199D2EAB0014F127 /* Images.xcassets */,
 				A46B8541199D2EAB0014F127 /* MainMenu.xib */,
+				A46B8558199D30F60014F127 /* MainViewController.swift */,
+				A46B855A199D63590014F127 /* StringUtil.swift */,
 				A46B8539199D2EAB0014F127 /* Supporting Files */,
 			);
 			path = "Line Insertions";
@@ -208,6 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46B855B199D63590014F127 /* StringUtil.swift in Sources */,
+				A46B8559199D30F60014F127 /* MainViewController.swift in Sources */,
 				A46B853E199D2EAB0014F127 /* AppDelegate.swift in Sources */,
 				A46B853C199D2EAB0014F127 /* main.swift in Sources */,
 			);
@@ -327,6 +335,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Line Insertions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -338,6 +347,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Line Insertions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -397,6 +407,7 @@
 				A46B8554199D2EAB0014F127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A46B8555199D2EAB0014F127 /* Build configuration list for PBXNativeTarget "Line InsertionsTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +416,7 @@
 				A46B8557199D2EAB0014F127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
